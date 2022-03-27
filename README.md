@@ -16,3 +16,24 @@ Project: Build CryptoStar Dapp on Ethereum
     Truffle v5.5.3
     Solidity Compiler:  0.8.12+commit.f00d7308
 ```
+
+# Install packages
+
+```bash
+    cd app
+    npm install 
+```
+
+# Truffle contracts
+```bash
+   truffle develop
+   compile
+   migrate --reset
+   test
+```
+
+# Run Dapp
+```bash
+   cd app
+   npm run dev
+```
